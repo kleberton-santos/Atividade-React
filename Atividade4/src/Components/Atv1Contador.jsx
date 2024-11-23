@@ -16,8 +16,8 @@ function Atv1Contador() {
     return (
         <div style={{textAlign: 'center', marginTop: '50px'}}>
             <h1>Contador: {contagem}</h1>
-            <button onClick={incrementar}>Incrementar</button>
-            <button onClick={decrementar}>Decrementar</button>
+            <button onClick={incrementar} className='btn btn-warning'>Incrementar</button>
+            <button onClick={decrementar} className='btn btn-info'>Decrementar</button>
         </div>
     )
 

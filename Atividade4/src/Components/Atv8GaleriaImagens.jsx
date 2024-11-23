@@ -3,10 +3,11 @@ import React, { useState } from 'react';
 function Atv8GaleriaImagens() {
     // Lista de imagens para a galeria
     const imagens = [
-        'https://via.placeholder.com/300x200?text=Imagem+1',
-        'https://via.placeholder.com/300x200?text=Imagem+2',
-        'https://via.placeholder.com/300x200?text=Imagem+3',
-        'https://via.placeholder.com/300x200?text=Imagem+4'
+        'https://m.media-amazon.com/images/S/pv-target-images/bb6167717c7a918c1db2bac52234f191024624dcdb41e382a2041959898d789c.jpg',
+        'https://br.web.img3.acsta.net/pictures/210/571/21057125_20131112201221324.jpg',
+        'https://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg',
+        'https://br.web.img2.acsta.net/medias/nmedia/18/92/34/89/20194741.jpg',
+        'https://upload.wikimedia.org/wikipedia/pt/0/0d/EsdlaIII.jpg'
     ];
 
     // Estado para armazenar a imagem selecionada para visualização ampliada

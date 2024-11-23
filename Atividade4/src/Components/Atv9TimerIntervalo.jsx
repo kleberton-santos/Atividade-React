@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 function Atv9TimerIntervalo() {
-    // Estados para controlar o tempo e o estado de pausa
-    const [tempo, setTempo] = useState(0);  // Tempo restante
-    const [tempoInicial, setTempoInicial] = useState(0);  // Tempo inicial para reiniciar
-    const [emExecucao, setEmExecucao] = useState(false);  // Se o timer está em execução
-    const [intervalo, setIntervalo] = useState(null);  // Armazena o intervalo para pausá-lo posteriormente
+    
+    const [tempo, setTempo] = useState(0);  
+    const [tempoInicial, setTempoInicial] = useState(0);  
+    const [emExecucao, setEmExecucao] = useState(false);  
+    const [intervalo, setIntervalo] = useState(null);  
 
     // Função para iniciar a contagem regressiva
     const iniciarTimer = () => {

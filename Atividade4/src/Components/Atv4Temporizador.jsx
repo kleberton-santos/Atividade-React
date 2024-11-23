@@ -30,13 +30,13 @@ function Atv4Temporizador() {
     };
 
     return (
-        <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <div className="" style={{ textAlign: "center", marginTop: "20px" }}>
             <h1>Temporizador</h1>
             <p style={{ fontSize: "24px", fontWeight: "bold" }}>{temporizador} segundos</p>
-            <button onClick={toggleTemporizador} style={{ marginRight: "10px" }}>
+            <button onClick={toggleTemporizador} className="btn btn-warning" style={{ marginRight: "10px" }}>
                 {ativo ? "Pausar" : "Iniciar"}
             </button>
-            <button onClick={resetTemporizador}>Reiniciar</button>
+            <button onClick={resetTemporizador} className="btn btn-info">Reiniciar</button>
         </div>
     );
 }

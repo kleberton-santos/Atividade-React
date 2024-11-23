@@ -51,7 +51,7 @@ function Atv3ListaTarefas() {
 
     return (
         <div style={{ padding: '20px', maxWidth: '500px', margin: '0 auto' }}>
-            <h1>Lista de Tarefas</h1>
+            <h1 className="text-bg-primary mb-3">Lista de Tarefas</h1>
             
             <input
                 type="text"
@@ -60,18 +60,18 @@ function Atv3ListaTarefas() {
                 placeholder="Digite uma nova tarefa"
                 style={{ padding: '5px', width: '100%', marginBottom: '10px' }}
             />
-            <button onClick={handleAddTask} style={{ marginBottom: '10px' }}>
+            <button onClick={handleAddTask} className="btn btn-primary" style={{ marginBottom: '10px' }}>
                 Adicionar Tarefa
             </button>
 
             <div>
-                <button onClick={() => setFiltro('todas')} style={{ margin: '0 5px' }}>
+                <button onClick={() => setFiltro('todas')} className="btn btn-primary" style={{ margin: '0 5px' }}>
                     Todas
                 </button>
-                <button onClick={() => setFiltro('pendentes')} style={{ margin: '0 5px' }}>
+                <button onClick={() => setFiltro('pendentes')} className="btn btn-primary" style={{ margin: '0 5px' }}>
                     Pendentes
                 </button>
-                <button onClick={() => setFiltro('concluidas')} style={{ margin: '0 5px' }}>
+                <button onClick={() => setFiltro('concluidas')} className="btn btn-primary" style={{ margin: '0 5px' }}>
                     Concluídas
                 </button>
             </div>

@@ -27,7 +27,7 @@ function Atv2CorFundo() {
 
     return (
         <div className="container">
-            <button onClick={mudarCor} className="button">Mudar Cor</button>
+            <button onClick={mudarCor} className="button btn btn-secondary">Mudar Cor</button>
         </div>
     );
 }

@@ -16,60 +16,60 @@ function App() {
   return (
     <Router>
       <div className="container mt-5">
-        <h1 className="text-center mb-4 btn btn-secondary">Menu de Atividades</h1>
+        <h1 className="">Menu de Atividades</h1>
 
         {/* Menu com Botões */}
         <div className="row g-3">
           <div className="col-md-2">
             <Link to="/atividade1" className="btn btn-success btn-block w-100">
-              Atividade 1
+             Contador Simples
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade2" className="btn btn-success btn-block w-100">
-              Atividade 2
+              Cor de Fundo
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade3" className="btn btn-success btn-block w-100">
-              Atividade 3
+              Lista de Tarefas
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade4" className="btn btn-success btn-block w-100">
-              Atividade 4
+              Temporizador 
             </Link>
           </div>
           
           <div className="col-md-2">
             <Link to="/atividade5" className="btn btn-success btn-block w-100">
-              Atividade 5
+             Filtro de Lista
             </Link>
           </div>
           
           <div className="col-md-2">
             <Link to="/atividade6" className="btn btn-success btn-block w-100">
-              Atividade 6
+             Formulário de Registro 
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade7" className="btn btn-success btn-block w-100">
-              Atividade 7
+              Requisição de Dados
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade8" className="btn btn-success btn-block w-100">
-              Atividade 8
+             Galeria de Imagens
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade9" className="btn btn-success btn-block w-100">
-              Atividade 9
+             Timer
             </Link>
           </div>
           <div className="col-md-2">
             <Link to="/atividade10" className="btn btn-success btn-block w-100">
-              Atividade 10
+              Tabs Navegáveis
             </Link>
           </div>
         </div>

@@ -28,7 +28,7 @@ function Atv5FiltroLista() {
                 onChange={handleChange} // Atualiza o estado sempre que o usuário digitar algo
             />
             
-            <ul style={{ listStyleType: 'none', padding: 0 }}> 
+            <ul style={{ listStyleType: 'none', padding: 0, fontWeight: 'bold' }}>
                 {nomesFiltrados.map((nome, index) => (
                     <li key={index}>{nome}</li> 
                 ))}

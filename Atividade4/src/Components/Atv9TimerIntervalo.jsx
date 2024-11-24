@@ -57,9 +57,9 @@ function Atv9TimerIntervalo() {
                 placeholder="Digite o tempo em segundos"
             />
             <div>
-                <button onClick={iniciarTimer} disabled={emExecucao || tempo === 0}>Iniciar</button>
-                <button onClick={pausarTimer} disabled={!emExecucao}>Pausar</button>
-                <button onClick={reiniciarTimer} disabled={tempo === 0}>Reiniciar</button>
+                <button onClick={iniciarTimer} disabled={emExecucao || tempo === 0} className='btn btn-warning'>Iniciar</button>
+                <button onClick={pausarTimer} disabled={!emExecucao} className='btn btn-info'>Pausar</button>
+                <button onClick={reiniciarTimer} disabled={tempo === 0} className='btn btn-secondary'>Reiniciar</button>
             </div>
             <h2>{tempo} segundos restantes</h2>
         </div>

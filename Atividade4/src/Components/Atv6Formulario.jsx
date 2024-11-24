@@ -52,35 +52,41 @@ function Atv6Formulario() {
 
             {/* Formulário de cadastro */}
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label>Nome:</label>
-                    <input
-                        type="text"
-                        value={nome}
-                        onChange={handleNomeChange}
-                        placeholder="Digite seu nome"
-                    />
-                </div>
-                <div>
-                    <label>Email:</label>
-                    <input
-                        type="email"
-                        value={email}
-                        onChange={handleEmailChange}
-                        placeholder="Digite seu e-mail"
-                    />
-                </div>
-                <div>
-                    <label>Senha:</label>
-                    <input
-                        type="password"
-                        value={senha}
-                        onChange={handleSenhaChange}
-                        placeholder="Digite sua senha"
-                    />
-                </div>
-                <button type="submit">Enviar</button>
-            </form>
+    <div className="mb-3">
+        <label htmlFor="nome" className="form-label">Nome:</label>
+        <input
+            type="text"
+            id="nome"
+            value={nome}
+            onChange={handleNomeChange}
+            placeholder="Digite seu nome"
+            className="form-control"
+        />
+    </div>
+    <div className="mb-3">
+        <label htmlFor="email" className="form-label">Email:</label>
+        <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={handleEmailChange}
+            placeholder="Digite seu e-mail"
+            className="form-control"
+        />
+    </div>
+    <div className="mb-3">
+        <label htmlFor="senha" className="form-label">Senha:</label>
+        <input
+            type="password"
+            id="senha"
+            value={senha}
+            onChange={handleSenhaChange}
+            placeholder="Digite sua senha"
+            className="form-control"
+        />
+    </div>
+    <button type="submit" className="btn btn-primary">Enviar</button>
+</form>
         </div>
     );
 }

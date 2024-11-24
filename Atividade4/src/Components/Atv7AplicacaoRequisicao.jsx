@@ -27,23 +27,23 @@ function Atv7AplicacaoRequisicao() {
 
     return (
         <div>
-            <h1>Lista de Posts</h1>
-            {/* Indicador de carregamento */}
-            {loading ? (
-                <p>Carregando...</p>
-            ) : (
-                <ul>
-                    {posts.map(post => (
-                        <li key={post.id}>
-                            <h3>{post.title}</h3>
-                            <p>{post.body}</p>
-                        </li>
-                    ))}
-                </ul>
-            )}
-            {/* Botão para recarregar os dados */}
-            <button onClick={fetchPosts}>Recarregar Posts</button>
-        </div>
+        <h1>Lista de Posts</h1>
+        {/* Indicador de carregamento */}
+        {loading ? (
+            <p>Carregando...</p>
+        ) : (
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+                {posts.map(post => (
+                    <li key={post.id} style={{ marginBottom: '20px' }}>
+                        <h3>{post.title}</h3>
+                        <p>{post.body}</p>
+                    </li>
+                ))}
+            </ul>
+        )}
+        {/* Botão para recarregar os dados */}
+        <button onClick={fetchPosts} className="btn btn-primary">Recarregar Posts</button>
+    </div>
     );
 }
 

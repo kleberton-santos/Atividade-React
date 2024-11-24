@@ -51,7 +51,7 @@ function Atv3ListaTarefas() {
 
     return (
         <div style={{ padding: '20px', maxWidth: '500px', margin: '0 auto' }}>
-            <h1 className="text-bg-primary mb-3">Lista de Tarefas</h1>
+            <h1 className="">Lista de Tarefas</h1>
             
             <input
                 type="text"
@@ -76,23 +76,29 @@ function Atv3ListaTarefas() {
                 </button>
             </div>
 
-            <ul>
-                {tarefasFiltradas.map((tarefa, index) => (
-                    <li key={index} style={{ marginBottom: '10px' }}>
-                        <span
-                            style={{
-                                textDecoration: tarefa.concluida ? 'line-through' : 'none',
-                                marginRight: '10px',
-                                cursor: 'pointer',
-                            }}
-                            onClick={() => handleToggleComplete(index)}
-                        >
-                            {tarefa.texto}
-                        </span>
-                        <button onClick={() => handleRemoveTask(index)}>Remover</button>
-                    </li>
-                ))}
-            </ul>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+    {tarefasFiltradas.map((tarefa, index) => (
+        <li key={index} style={{ marginBottom: '10px' }}>
+            <span
+                style={{
+                    textDecoration: tarefa.concluida ? 'line-through' : 'none',
+                    marginRight: '10px',
+                    cursor: 'pointer',
+                }}
+                onClick={() => handleToggleComplete(index)}
+            >
+                {tarefa.texto}
+            </span>
+            <button 
+                onClick={() => handleRemoveTask(index)} 
+                className="btn btn-danger" 
+                style={{ textDecoration: 'none' }}
+            >
+                Remover
+            </button>
+        </li>
+    ))}
+</ul>
         </div>
     );
 }

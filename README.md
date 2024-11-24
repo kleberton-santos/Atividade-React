@@ -15,44 +15,44 @@ O projeto possui uma pasta components onde se encontram cada exercicio separado 
 Menu principal no App.jsx
 
 ## 1º Contador Simples
-
 Um contador simples que pode ser incrementado ou decrementado.  
 Desafio: Não permite que o valor seja menor que zero.  
+
 ## 2º Alteração de Cor de Fundo  
-
-## Um componente que altera a cor de fundo da página ao clicar em um botão.  
+Um componente que altera a cor de fundo da página ao clicar em um botão.  
 Desafio: A cor é aleatória sempre que o botão é pressionado.  
-Lista de Tarefas  
 
-## Uma lista de tarefas onde é possível adicionar e remover itens.  
+
+## 3º Lista de Tarefas  
+Uma lista de tarefas onde é possível adicionar e remover itens.  
 Desafio: Permite marcar tarefas como concluídas e filtrar para ver apenas as pendentes.  
-Temporizador com useEffect  
 
-## Um temporizador que conta o tempo em segundos, com a possibilidade de pausar e reiniciar.  
+## 4º Temporizador com useEffect  
+Um temporizador que conta o tempo em segundos, com a possibilidade de pausar e reiniciar.  
 Desafio: Implementação de controle de temporizador.  
-Filtro de Lista  
 
-## Uma lista de nomes com campo de entrada para filtrar as opções.  
+## 5º Filtro de Lista  
+Uma lista de nomes com campo de entrada para filtrar as opções.  
 Desafio: O filtro deve ser insensível a maiúsculas e minúsculas.  
-Formulário de Registro Simples  
 
-## Um formulário com campos para nome, e-mail e senha, que exibe uma mensagem de boas-vindas após o envio.  
+## 6º Formulário de Registro Simples  
+Um formulário com campos para nome, e-mail e senha, que exibe uma mensagem de boas-vindas após o envio.  
 Desafio: Validações para garantir que todos os campos estejam preenchidos.  
-Aplicação de Requisição de Dados Simples  
 
-## Exibe uma lista de posts de uma API pública (JSONPlaceholder) com a possibilidade de recarregar os dados.  
+## 7º Aplicação de Requisição de Dados Simples  
+Exibe uma lista de posts de uma API pública (JSONPlaceholder) com a possibilidade de recarregar os dados.  
 Desafio: Exibe um indicador de carregamento enquanto a requisição está sendo feita.  
-Galeria de Imagens com Visualização Detalhada  
 
-## Uma galeria de imagens onde o usuário pode visualizar as imagens em tamanho maior em um modal.  
+## 8º Galeria de Imagens com Visualização Detalhada  
+Uma galeria de imagens onde o usuário pode visualizar as imagens em tamanho maior em um modal.  
 Desafio: Funcionalidade de navegação entre as imagens e botão de "Fechar" no modal.  
-Timer com Intervalo e Alerta  
 
-## Um timer de contagem regressiva onde o usuário define o tempo e é exibido um alerta quando o tempo chega a zero.  
+## 9º Timer com Intervalo e Alerta  
+Um timer de contagem regressiva onde o usuário define o tempo e é exibido um alerta quando o tempo chega a zero.  
 Desafio: Funções de pausar e reiniciar o timer.  
-Componentes com Tabs Navegáveis  
 
-## Interface com abas (tabs) que exibem conteúdos diferentes ao serem clicadas.  
+## 10º Componentes com Tabs Navegáveis  
+Interface com abas (tabs) que exibem conteúdos diferentes ao serem clicadas.  
 Desafio: Destaque visual para a aba ativa.  
 
 ### Clonando o Repositório
